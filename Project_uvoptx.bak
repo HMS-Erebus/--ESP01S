@@ -1242,10 +1242,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>24</ColumnNumber>
+      <ColumnNumber>42</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
       <TopLine>139</TopLine>
-      <CurrentLine>154</CurrentLine>
+      <CurrentLine>161</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\Hardware\XIIC\blood.c</PathWithFileName>
       <FilenameWithoutPath>blood.c</FilenameWithoutPath>

@@ -2,7 +2,7 @@
 .\objects\max30102.o: Hardware\MAX30102\MAX30102.h
 .\objects\max30102.o: .\Start\stm32f10x.h
 .\objects\max30102.o: .\Start\core_cm3.h
-.\objects\max30102.o: D:\Apps\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\max30102.o: D:\keil\ARM\ARMCC\bin\..\include\stdint.h
 .\objects\max30102.o: .\Start\system_stm32f10x.h
 .\objects\max30102.o: .\User\stm32f10x_conf.h
 .\objects\max30102.o: .\Library\stm32f10x_adc.h
@@ -31,4 +31,4 @@
 .\objects\max30102.o: .\Library\misc.h
 .\objects\max30102.o: .\Hardware\XIIC\xiic.h
 .\objects\max30102.o: .\System\Delay\delay.h
-.\objects\max30102.o: D:\Apps\Keil5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\max30102.o: D:\keil\ARM\ARMCC\bin\..\include\stdbool.h

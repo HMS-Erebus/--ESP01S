@@ -155,10 +155,10 @@ static void max30102_Task(void* parameter)
 	extern float sp02_num;
 	int i=0;
 	//Delay_init(72);             //设置外部晶振和单片机时钟频率为72m
-	OLED_Init();				//OLED初始化
+	OLED_Init();				  //OLED初始化
 	OLED_ShowString(1,1,"hello");
-	Usart1_Init(115200);		//调试串口初始化
-	Usart2_Init(115200);		//串口初始
+	Usart1_Init(115200);		  //调试串口初始化
+	Usart2_Init(115200);		  //串口初始
 	
 	IIC_GPIO_INIT();		
 	MAX30102_GPIO();

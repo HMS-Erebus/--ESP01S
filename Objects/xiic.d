@@ -2,7 +2,7 @@
 .\objects\xiic.o: Hardware\XIIC\xiic.h
 .\objects\xiic.o: .\Start\stm32f10x.h
 .\objects\xiic.o: .\Start\core_cm3.h
-.\objects\xiic.o: D:\Apps\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\xiic.o: D:\keil\ARM\ARMCC\bin\..\include\stdint.h
 .\objects\xiic.o: .\Start\system_stm32f10x.h
 .\objects\xiic.o: .\User\stm32f10x_conf.h
 .\objects\xiic.o: .\Library\stm32f10x_adc.h

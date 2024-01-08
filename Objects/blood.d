@@ -2,7 +2,7 @@
 .\objects\blood.o: Hardware\XIIC\blood.h
 .\objects\blood.o: .\Start\stm32f10x.h
 .\objects\blood.o: .\Start\core_cm3.h
-.\objects\blood.o: D:\Apps\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\blood.o: D:\keil\ARM\ARMCC\bin\..\include\stdint.h
 .\objects\blood.o: .\Start\system_stm32f10x.h
 .\objects\blood.o: .\User\stm32f10x_conf.h
 .\objects\blood.o: .\Library\stm32f10x_adc.h
@@ -32,8 +32,8 @@
 .\objects\blood.o: .\Hardware\MAX30102\MAX30102.h
 .\objects\blood.o: .\Hardware\XIIC\xiic.h
 .\objects\blood.o: .\System\Delay\delay.h
-.\objects\blood.o: D:\Apps\Keil5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\blood.o: D:\keil\ARM\ARMCC\bin\..\include\stdbool.h
 .\objects\blood.o: .\Hardware\Algorithm\algorithm.h
-.\objects\blood.o: D:\Apps\Keil5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\blood.o: D:\keil\ARM\ARMCC\bin\..\include\math.h
 .\objects\blood.o: .\Hardware\OLED\OLED.h
 .\objects\blood.o: .\System\usart\usart.h

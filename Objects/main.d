@@ -1,7 +1,7 @@
 .\objects\main.o: User\main.c
 .\objects\main.o: .\FreeRTOS\include\freertos.h
-.\objects\main.o: D:\Apps\Keil5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\main.o: D:\Apps\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\main.o: D:\keil\ARM\ARMCC\bin\..\include\stddef.h
+.\objects\main.o: D:\keil\ARM\ARMCC\bin\..\include\stdint.h
 .\objects\main.o: .\FreeRTOS\FreeRTOSConfig.h
 .\objects\main.o: .\FreeRTOS\include\projdefs.h
 .\objects\main.o: .\FreeRTOS\include\portable.h
@@ -44,7 +44,7 @@
 .\objects\main.o: .\System\usart\usart.h
 .\objects\main.o: .\Hardware\MAX30102\max30102.h
 .\objects\main.o: .\Hardware\XIIC\xiic.h
-.\objects\main.o: D:\Apps\Keil5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\main.o: D:\keil\ARM\ARMCC\bin\..\include\stdbool.h
 .\objects\main.o: .\Hardware\Algorithm\algorithm.h
 .\objects\main.o: .\Hardware\XIIC\blood.h
-.\objects\main.o: D:\Apps\Keil5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\main.o: D:\keil\ARM\ARMCC\bin\..\include\math.h

@@ -2,7 +2,7 @@
 .\objects\algorithm.o: Hardware\Algorithm\algorithm.h
 .\objects\algorithm.o: .\Start\stm32f10x.h
 .\objects\algorithm.o: .\Start\core_cm3.h
-.\objects\algorithm.o: D:\Apps\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\algorithm.o: D:\keil\ARM\ARMCC\bin\..\include\stdint.h
 .\objects\algorithm.o: .\Start\system_stm32f10x.h
 .\objects\algorithm.o: .\User\stm32f10x_conf.h
 .\objects\algorithm.o: .\Library\stm32f10x_adc.h
