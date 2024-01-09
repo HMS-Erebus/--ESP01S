@@ -132,12 +132,17 @@ static void esp8266_Task(void* parameter)
 	
 	UsartPrintf(USART_DEBUG,"AT+MQTTUSERCFG=0,1,\"NULL\",\"MAX30102&k0qbh9ZPUor\",\"AD810A0D4D9A77CB906AC575E20EF3B0F5854370\",0,0,\"\"\r\n");
 	vTaskDelay(5000);
+	//"AT+MQTTUSERCFG=0,1,"NULL",\"DEVICE1&k0qgo9UYc52\",\"9f966f81f976d62ad9898c499dcdc1bd7d360272ca05c2b19991dcb38baeb249\",0,0,\"\"\r\n"
 	UsartPrintf(USART_DEBUG,"AT+MQTTCLIENTID=0,\"002211|securemode=3\\,signmethod=hmacsha1\\,timestamp=001122|\"\r\n");
 	vTaskDelay(5000);
+	//"AT+MQTTCLIENTID=0,\"k0qgo9UYc52.DEVICE1|securemode=2\\,signmethod=hmacsha256\\,timestamp=1704763694976|\"\r\n"
 	UsartPrintf(USART_DEBUG,"AT+MQTTCONN=0,\"k0qbh9ZPUor.iot-as-mqtt.cn-shanghai.aliyuncs.com\",1883,1\r\n");
 	vTaskDelay(5000);
+	//"AT+MQTTCONN=0,\"iot-06z00ialvl2dkyw.mqtt.iothub.aliyuncs.com\",1883,1\r\n"
 	UsartPrintf(USART_DEBUG,"AT+MQTTSUB=0,\"/sys/k0qbh9ZPUor/esp8266/thing/service/property/set\",1\r\n");
 	vTaskDelay(5000);
+	//"AT+MQTTSUB=0,\"/sys/k0qgo9UYc52/DEVICE1/thing/event/property/post\",1\r\n"
+	//订阅设备属性上报
 	UsartPrintf(USART_DEBUG,"AT+MQTTSUB=0,\"/k0qbh9ZPUor/esp8266/user/get\",1\r\n");
 	vTaskDelay(5000);
     while (1);
