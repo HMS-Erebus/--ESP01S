@@ -157,10 +157,10 @@ void blood_Loop(void)
 	//显示血液状态信息
 	g_blooddata.SpO2 = (g_blooddata.SpO2 > 99.99) ? 99.99:g_blooddata.SpO2;
 	UsartPrintf(USART_DEBUG,"指令心率%3d",g_blooddata.heart);
-	//UsartPrintf(USART_DEBUG,"AT+MQTTPUB=0,\"/k0qbh9ZPUor/esp8266/user/get\",1,\"{\\\"HEARTRATE\\\":%3d}\"\r\n", g_blooddata.heart);
+	//UsartPrintf(USART_DEBUG,"AT+MQTTPUB=0,\"/sys/k0qgo9UYc52/DEVICE1/thing/event/property/post\",1,\"{\\\"HEARTRATE\\\":%3d}\"\r\n", g_blooddata.heart);
 	OLED_ShowNum(4,7,g_blooddata.heart,3);
 	UsartPrintf(USART_DEBUG,"指令血氧%0.2f",g_blooddata.SpO2);
-	//UsartPrintf(USART_DEBUG,"AT+MQTTPUB=0,\"/k0qbh9ZPUor/esp8266/user/get\",1,\"{\\\"bloodoxygen\\\":%0.2f}\"\r\n", g_blooddata.SpO2);
+	//UsartPrintf(USART_DEBUG,"AT+MQTTPUB=0,\"/sys/k0qgo9UYc52/DEVICE1/thing/event/property/post\",1,\"{\\\"bloodoxygen\\\":%0.2f}\"\r\n", g_blooddata.SpO2);
 	OLED_ShowNum(3,4,g_blooddata.SpO2,3);
 	//tft显示刷新
 	//LED 蜂鸣器信息更新

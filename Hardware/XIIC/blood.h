@@ -15,7 +15,7 @@ typedef enum
 typedef struct
 {
 	int 		heart;		//心率数据
-	float 			SpO2;			//血氧数据
+	float 	    SpO2;	    //血氧数据
 }BloodData;
 
 
